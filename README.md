@@ -90,3 +90,9 @@ Choose one from the following:
     );
 
 
+    ## RELEASE NOTES
+
+    1.0.13 (27/06/2018)
+    * Handle files with spaces in their filename on IOS
+
+
