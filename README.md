@@ -18,7 +18,7 @@ This plugin depends on cordova-plugin-file. If you want to install this plugin y
 
 The plugin exposes two methods on the window object: 
     
-     DocumentViewer.previewFileFromUrlOrPath(successHandler, failureHandler, url, fileName)
+     DocumentViewer.previewFileFromUrlOrPath(successHandler, failureHandler, url, fileName, mimeType)
 
      DocumentViewer.saveAndPreviewBase64File(successHandler, failureHandler, data, type, path, fileName)
 
@@ -28,6 +28,7 @@ The parameters:
 * failureHandler: Should be a function. Is called when there was a problem with downloading the file. 
 The function takes an argument which is usually 1 (undefined error). Also see Android section.
 * url: A URL to a document. Any cookies the system has for this server are passed along. This ensures that authenticated downloads also work. 
+* mimeType: This is optional argument. You should provide it if mimeType cannot be detected by the file itself. 
 * data: Base64 string that represents the document
 * type: Type of the document (Ex. application/pdf )
 * path: Should be a path to phone's directory (Android/IOS) where you want to be saved the document before preview. Better use cordova-file-plugin constant to provide correct path.
