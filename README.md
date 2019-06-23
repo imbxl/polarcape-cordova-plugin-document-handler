@@ -71,7 +71,7 @@ Choose one from the following:
             console.log('Invalid link');
         }
     },
-    'http://www.axmag.com/download/pdfurl-guide.pdf', 'pdf-sample');
+    'http://www.axmag.com/download/pdfurl-guide.pdf', 'pdf-sample', 'application/pdf');
     
 
 ## Example 2
@@ -94,7 +94,8 @@ Choose one from the following:
 
     1.0.13 (27/06/2018)
     * Handle files with spaces in their filename on IOS
-	1.0.14 (30/08.2018)
+	1.0.14 (30/08/2018)
 	* Document handler js error fix
-
+	1.1.0 (23/06/2019)
+	* Added optional parameter (mime type) to the previewFileFromUrlOrPath
 
