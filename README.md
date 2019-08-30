@@ -99,4 +99,6 @@ Choose one from the following:
 	* Document handler js error fix
 	1.1.0 (23/06/2019)
 	* Added optional parameter (mime type) to the previewFileFromUrlOrPath
+    1.1.1 (30/08/2019)
+	* fileName parameter implementation (IOS)
 
